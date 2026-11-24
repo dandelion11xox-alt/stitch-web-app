@@ -1,0 +1,172 @@
+{
+  "success": true,
+  "data": {
+    "resource": "design-system",
+    "items": [
+      {
+        "id": "b4d0e1f6658e40c8936c151cc591abbe",
+        "designSystem": {
+          "displayName": "Glacier Minimal",
+          "manifestJson": "{\"designMd\":\"---\\nname: Glacier Minimal\\ncolors:\\n  surface: '#faf8ff'\\n  surface-dim: '#d2d9f4'\\n  surface-bright: '#faf8ff'\\n  surface-container-lowest: '#ffffff'\\n  surface-container-low: '#f2f3ff'\\n  surface-container: '#eaedff'\\n  surface-container-high: '#e2e7ff'\\n  surface-container-highest: '#dae2fd'\\n  on-surface: '#131b2e'\\n  on-surface-variant: '#3f4850'\\n  inverse-surface: '#283044'\\n  inverse-on-surface: '#eef0ff'\\n  outline: '#707881'\\n  outline-variant: '#bfc7d2'\\n  surface-tint: '#006398'\\n  primary: '#006194'\\n  on-primary: '#ffffff'\\n  primary-container: '#007bb9'\\n  on-primary-container: '#fdfcff'\\n  inverse-primary: '#93ccff'\\n  secondary: '#00668a'\\n  on-secondary: '#ffffff'\\n  secondary-container: '#40c2fd'\\n  on-secondary-container: '#004d6a'\\n  tertiary: '#4e5e68'\\n  on-tertiary: '#ffffff'\\n  tertiary-container: '#667781'\\n  on-tertiary-container: '#fbfcff'\\n  error: '#ba1a1a'\\n  on-error: '#ffffff'\\n  error-container: '#ffdad6'\\n  on-error-container: '#93000a'\\n  primary-fixed: '#cce5ff'\\n  primary-fixed-dim: '#93ccff'\\n  on-primary-fixed: '#001d31'\\n  on-primary-fixed-variant: '#004b73'\\n  secondary-fixed: '#c4e7ff'\\n  secondary-fixed-dim: '#7bd0ff'\\n  on-secondary-fixed: '#001e2c'\\n  on-secondary-fixed-variant: '#004c69'\\n  tertiary-fixed: '#d3e5f1'\\n  tertiary-fixed-dim: '#b7c9d5'\\n  on-tertiary-fixed: '#0c1e26'\\n  on-tertiary-fixed-variant: '#384953'\\n  background: '#faf8ff'\\n  on-background: '#131b2e'\\n  surface-variant: '#dae2fd'\\ntypography:\\n  display-xl:\\n    fontFamily: Outfit\\n    fontSize: 64px\\n    fontWeight: '600'\\n    lineHeight: 72px\\n    letterSpacing: -0.02em\\n  display-xl-mobile:\\n    fontFamily: Outfit\\n    fontSize: 48px\\n    fontWeight: '600'\\n    lineHeight: 56px\\n    letterSpacing: -0.02em\\n  headline-lg:\\n    fontFamily: Outfit\\n    fontSize: 32px\\n    fontWeight: '600'\\n    lineHeight: 40px\\n    letterSpacing: -0.015em\\n  headline-md:\\n    fontFamily: Outfit\\n    fontSize: 24px\\n    fontWeight: '600'\\n    lineHeight: 32px\\n    letterSpacing: -0.01em\\n  headline-sm:\\n    fontFamily: Outfit\\n    fontSize: 20px\\n    fontWeight: '500'\\n    lineHeight: 28px\\n  body-lg:\\n    fontFamily: DM Sans\\n    fontSize: 16px\\n    fontWeight: '400'\\n    lineHeight: 24px\\n  body-md:\\n    fontFamily: DM Sans\\n    fontSize: 14px\\n    fontWeight: '400'\\n    lineHeight: 20px\\n  body-sm:\\n    fontFamily: DM Sans\\n    fontSize: 12px\\n    fontWeight: '400'\\n    lineHeight: 16px\\n  label-lg:\\n    fontFamily: DM Sans\\n    fontSize: 14px\\n    fontWeight: '600'\\n    lineHeight: 20px\\n    letterSpacing: 0.02em\\n  label-md:\\n    fontFamily: DM Sans\\n    fontSize: 12px\\n    fontWeight: '500'\\n    lineHeight: 16px\\n    letterSpacing: 0.03em\\n  label-sm:\\n    fontFamily: DM Sans\\n    fontSize: 11px\\n    fontWeight: '500'\\n    lineHeight: 14px\\n    letterSpacing: 0.04em\\nrounded:\\n  sm: 0.25rem\\n  DEFAULT: 0.5rem\\n  md: 0.75rem\\n  lg: 1rem\\n  xl: 1.5rem\\n  full: 9999px\\nspacing:\\n  gutter: 1rem\\n  margin: 1.25rem\\n  space-xs: 0.25rem\\n  space-sm: 0.5rem\\n  space-md: 1rem\\n  space-lg: 1.5rem\\n  space-xl: 2rem\\n---\\n\\n## Brand & Style\\n\\nThis design system embodies a crisp, minimalist winter aesthetic tailored for a mobile counter application. It evokes the clarity of fresh snow, glacial ice, and quiet alpine mornings—delivering a calm, focused, and distraction-free experience for tracking counts, habits, or tallies.\\n\\nThe target audience values precision, speed, and visual serenity. The interface blends **Minimalism** with subtle **Glassmorphism**: generous whitespace, a restrained icy palette, frosted-glass borders, and soft diffused shadows create a lightweight, tactile sense of depth without visual clutter.\\n\\n## Colors\\n\\nThe palette is anchored in a `light` color mode that maximizes legibility and airiness:\\n\\n- **Backgrounds:** Pure snow white (`#FFFFFF`) serves as the primary canvas, paired with soft frost (`#F4F9FC`) for secondary containers and grouped sections.\\n- **Surfaces:** Pale ice blue (`#E0F2FE`) highlights interactive counter cards, active states, and subtle tonal elevations.\\n- **Accents:** Vibrant glacier blue (`#0284C7`) drives primary actions such as increment buttons and key CTAs, while cool sky blue (`#38BDF8`) supports secondary accents, progress indicators, and focus rings.\\n- **Typography & Contrast:** Deep slate-navy (`#0F172A`) provides crisp, high-contrast legibility for numerals, headings, and body copy.\\n\\n## Typography\\n\\nThe typographic hierarchy pairs geometric clarity with effortless scannability:\\n\\n- **Display & Headlines (`Outfit`):** Used for the primary counter numerals and section headers. All counter readouts must apply `font-variant-numeric: tabular-nums` so digits remain horizontally aligned and never jitter during rapid increments or decrements.\\n- **Body & Labels (`DM Sans`):** Provides clean, low-contrast legibility for counter titles, timestamps, and control labels.\\n- **Responsive Scaling:** On compact mobile viewports, `display-xl-mobile` (`48px`) replaces `display-xl` (`64px`) to preserve generous breathing room around the primary counter.\\n\\n## Layout & Spacing\\n\\nThis design system uses a **fluid grid** tailored for mobile-first ergonomics, with a 4-column base grid on phones (`16px` gutters, `20px` outer margins) that expands to 8 columns on tablets (`768px`+) and 12 columns on desktop (`1024px`+).\\n\\n- **Mobile (`\\u003c 768px`):** Counter cards stack vertically in a single column, keeping primary increment/decrement controls within natural thumb reach.\\n- **Tablet & Desktop (`\\u003e= 768px`):** Multiple counters reflow into a 2- or 3-column grid, maintaining `space-lg` (`1.5rem`) between cards and `space-md` (`1rem`) for internal card padding.\\n\\n## Elevation & Depth\\n\\nVisual hierarchy is achieved through a combination of **tonal layers**, **subtle frosted-glass borders**, and **soft icy shadows**:\\n\\n- **Tonal Surfaces:** Pure snow white (`#FFFFFF`) cards sit atop soft frost (`#F4F9FC`) backgrounds, while active or selected counters shift to pale ice blue (`#E0F2FE`).\\n- **Frosted-Glass Borders:** Interactive cards and floating controls use a `1px` translucent border (`rgba(224, 242, 254, 0.8)`) paired with a subtle backdrop blur (`backdrop-filter: blur(12px)`) where overlays appear.\\n- **Icy Shadows:** Elevated elements use extra-diffused, low-opacity shadows tinted with deep slate-navy (`0 8px 24px -4px rgba(15, 23, 42, 0.06)`), creating a weightless, floating sensation without harsh contrast.\\n\\n## Shapes\\n\\nThe shape language uses a **Rounded (`2`)** profile (`0.5rem` base, `1rem` for `rounded-lg`, `1.5rem` for `rounded-xl`) to soften the crispness of the winter palette. Cards and primary counter containers use `rounded-xl` (`1.5rem`) for a friendly, approachable silhouette, while smaller controls, chips, and inputs use `0.5rem` to `1rem` radii.\\n\\n## Components\\n\\n- **Buttons:** Primary action buttons (e.g., `+` increment) use vibrant glacier blue (`#0284C7`) with pure snow white (`#FFFFFF`) icons/text, `rounded-xl` corners, and a soft icy shadow. Secondary actions (e.g., `-` decrement or reset) use pale ice blue (`#E0F2FE`) fills with deep slate-navy (`#0F172A`) text.\\n- **Cards:** Counter cards feature a pure snow white (`#FFFFFF`) or soft frost (`#F4F9FC`) surface, `1px` frosted-glass border, `rounded-xl` corners, and `space-md` internal padding. The tabular-numeral readout is centered or top-aligned with generous whitespace.\\n- **Chips:** Filter and category chips use `rounded-lg` corners, `body-sm` typography, and pale ice blue (`#E0F2FE`) backgrounds when active, switching to transparent with a `1px` frosted border when inactive.\\n- **Lists:** Saved counter logs and history rows sit on soft frost (`#F4F9FC`) containers separated by `1px` hairline dividers (`rgba(15, 23, 42, 0.06)`), with `space-md` vertical padding.\\n- **Input Fields:** Text inputs for naming counters use pure snow white (`#FFFFFF`) backgrounds, `1px` slate-tinted borders (`rgba(15, 23, 42, 0.12)`), `0.5rem` corner radius, and a cool sky blue (`#38BDF8`) focus ring.\\n- **Checkboxes & Radio Buttons:** Use `0.25rem` radius for checkboxes and full circles for radio buttons, filling with vibrant glacier blue (`#0284C7`) when selected.\\n- **Quick-Increment Stepper (Product-Specific):** A tactile horizontal pill bar housing `-`, current tabular count, and `+` buttons, anchored at the bottom of the mobile viewport for effortless one-handed operation.\",\"version\":1,\"tokens\":{\"spacing\":[{\"value\":\"1rem\",\"name\":\"gutter\",\"id\":\"gutter\"},{\"id\":\"margin\",\"value\":\"1.25rem\",\"name\":\"margin\"},{\"name\":\"space-lg\",\"id\":\"space-lg\",\"value\":\"1.5rem\"},{\"id\":\"space-md\",\"value\":\"1rem\",\"name\":\"space-md\"},{\"id\":\"space-sm\",\"value\":\"0.5rem\",\"name\":\"space-sm\"},{\"id\":\"space-xl\",\"value\":\"2rem\",\"name\":\"space-xl\"},{\"value\":\"0.25rem\",\"id\":\"space-xs\",\"name\":\"space-xs\"}],\"surface\":{\"light\":{\"background\":\"#faf8ff\",\"foreground\":\"#131b2e\",\"outline\":\"#bfc7d2\",\"surface\":\"#eaedff\",\"onSurface\":\"#3f4850\"},\"dark\":{\"foreground\":\"#131b2e\",\"outline\":\"#bfc7d2\",\"surface\":\"#eaedff\",\"background\":\"#faf8ff\",\"onSurface\":\"#3f4850\"}},\"colors\":[{\"value\":\"#faf8ff\",\"foreground\":\"#131b2e\",\"id\":\"background\",\"name\":\"Background\",\"role\":\"background\"},{\"foreground\":\"#ffffff\",\"name\":\"Error\",\"role\":\"error\",\"id\":\"error\",\"value\":\"#ba1a1a\"},{\"role\":\"error-container\",\"name\":\"Error Container\",\"id\":\"error-container\",\"value\":\"#ffdad6\",\"foreground\":\"#93000a\"},{\"role\":\"inverse-primary\",\"value\":\"#93ccff\",\"id\":\"inverse-primary\",\"name\":\"Inverse Primary\"},{\"role\":\"inverse-surface\",\"name\":\"Inverse Surface\",\"id\":\"inverse-surface\",\"value\":\"#283044\",\"foreground\":\"#eef0ff\"},{\"value\":\"#0f172a\",\"name\":\"Neutral\",\"role\":\"neutral\",\"id\":\"neutral\"},{\"role\":\"outline\",\"id\":\"outline\",\"name\":\"Outline\",\"value\":\"#707881\"},{\"role\":\"outline-variant\",\"value\":\"#bfc7d2\",\"id\":\"outline-variant\",\"name\":\"Outline Variant\"},{\"role\":\"primary\",\"id\":\"primary\",\"name\":\"Primary\",\"foreground\":\"#ffffff\",\"value\":\"#006194\"},{\"foreground\":\"#fdfcff\",\"id\":\"primary-container\",\"role\":\"primary-container\",\"value\":\"#007bb9\",\"name\":\"Primary Container\"},{\"foreground\":\"#001d31\",\"id\":\"primary-fixed\",\"value\":\"#cce5ff\",\"role\":\"primary-fixed\",\"name\":\"Primary Fixed\"},{\"role\":\"primary-fixed-dim\",\"value\":\"#93ccff\",\"name\":\"Primary Fixed Dim\",\"id\":\"primary-fixed-dim\"},{\"value\":\"#00668a\",\"id\":\"secondary\",\"foreground\":\"#ffffff\",\"role\":\"secondary\",\"name\":\"Secondary\"},{\"name\":\"Secondary Container\",\"role\":\"secondary-container\",\"id\":\"secondary-container\",\"foreground\":\"#004d6a\",\"value\":\"#40c2fd\"},{\"foreground\":\"#001e2c\",\"value\":\"#c4e7ff\",\"name\":\"Secondary Fixed\",\"role\":\"secondary-fixed\",\"id\":\"secondary-fixed\"},{\"role\":\"secondary-fixed-dim\",\"value\":\"#7bd0ff\",\"id\":\"secondary-fixed-dim\",\"name\":\"Secondary Fixed Dim\"},{\"role\":\"surface\",\"name\":\"Surface\",\"foreground\":\"#131b2e\",\"value\":\"#faf8ff\",\"id\":\"surface\"},{\"id\":\"surface-bright\",\"name\":\"Surface Bright\",\"role\":\"surface-bright\",\"value\":\"#faf8ff\"},{\"name\":\"Surface Container\",\"role\":\"surface-container\",\"id\":\"surface-container\",\"value\":\"#eaedff\"},{\"value\":\"#e2e7ff\",\"role\":\"surface-container-high\",\"id\":\"surface-container-high\",\"name\":\"Surface Container High\"},{\"value\":\"#dae2fd\",\"id\":\"surface-container-highest\",\"name\":\"Surface Container Highest\",\"role\":\"surface-container-highest\"},{\"role\":\"surface-container-low\",\"value\":\"#f2f3ff\",\"name\":\"Surface Container Low\",\"id\":\"surface-container-low\"},{\"value\":\"#ffffff\",\"name\":\"Surface Container Lowest\",\"role\":\"surface-container-lowest\",\"id\":\"surface-container-lowest\"},{\"role\":\"surface-dim\",\"value\":\"#d2d9f4\",\"name\":\"Surface Dim\",\"id\":\"surface-dim\"},{\"value\":\"#006398\",\"id\":\"surface-tint\",\"role\":\"surface-tint\",\"name\":\"Surface Tint\"},{\"id\":\"surface-variant\",\"role\":\"surface-variant\",\"name\":\"Surface Variant\",\"value\":\"#dae2fd\",\"foreground\":\"#3f4850\"},{\"id\":\"tertiary\",\"value\":\"#4e5e68\",\"foreground\":\"#ffffff\",\"role\":\"tertiary\",\"name\":\"Tertiary\"},{\"name\":\"Tertiary Container\",\"role\":\"tertiary-container\",\"id\":\"tertiary-container\",\"foreground\":\"#fbfcff\",\"value\":\"#667781\"},{\"role\":\"tertiary-fixed\",\"id\":\"tertiary-fixed\",\"name\":\"Tertiary Fixed\",\"foreground\":\"#0c1e26\",\"value\":\"#d3e5f1\"},{\"value\":\"#b7c9d5\",\"name\":\"Tertiary Fixed Dim\",\"role\":\"tertiary-fixed-dim\",\"id\":\"tertiary-fixed-dim\"}],\"type\":[{\"lineHeight\":\"24px\",\"size\":\"16px\",\"family\":\"DM Sans\",\"name\":\"Body LG\",\"weight\":\"400\",\"id\":\"body-lg\"},{\"lineHeight\":\"20px\",\"weight\":\"400\",\"id\":\"body-md\",\"size\":\"14px\",\"name\":\"Body MD\",\"family\":\"DM Sans\"},{\"lineHeight\":\"16px\",\"family\":\"DM Sans\",\"name\":\"Body SM\",\"id\":\"body-sm\",\"weight\":\"400\",\"size\":\"12px\"},{\"id\":\"display-xl\",\"name\":\"Display XL\",\"weight\":\"600\",\"size\":\"64px\",\"lineHeight\":\"72px\",\"letterSpacing\":\"-0.02em\",\"family\":\"Outfit\"},{\"size\":\"32px\",\"lineHeight\":\"40px\",\"family\":\"Outfit\",\"name\":\"Headline LG\",\"id\":\"headline-lg\",\"weight\":\"600\",\"letterSpacing\":\"-0.015em\"},{\"letterSpacing\":\"-0.01em\",\"family\":\"Outfit\",\"size\":\"24px\",\"id\":\"headline-md\",\"lineHeight\":\"32px\",\"weight\":\"600\",\"name\":\"Headline MD\"},{\"lineHeight\":\"28px\",\"name\":\"Headline SM\",\"weight\":\"500\",\"size\":\"20px\",\"family\":\"Outfit\",\"id\":\"headline-sm\"},{\"weight\":\"600\",\"family\":\"DM Sans\",\"size\":\"14px\",\"letterSpacing\":\"0.02em\",\"lineHeight\":\"20px\",\"name\":\"Label LG\",\"id\":\"label-lg\"},{\"family\":\"DM Sans\",\"id\":\"label-md\",\"lineHeight\":\"16px\",\"weight\":\"500\",\"letterSpacing\":\"0.03em\",\"size\":\"12px\",\"name\":\"Label MD\"},{\"id\":\"label-sm\",\"weight\":\"500\",\"size\":\"11px\",\"lineHeight\":\"14px\",\"name\":\"Label SM\",\"letterSpacing\":\"0.04em\",\"family\":\"DM Sans\"}],\"radius\":[{\"id\":\"DEFAULT\",\"name\":\"DEFAULT\",\"value\":\"8px\"},{\"id\":\"full\",\"name\":\"full\",\"value\":\"9999px\"},{\"id\":\"lg\",\"name\":\"lg\",\"value\":\"1rem\"},{\"value\":\"0.75rem\",\"name\":\"md\",\"id\":\"md\"},{\"value\":\"0.25rem\",\"id\":\"sm\",\"name\":\"sm\"},{\"value\":\"1.5rem\",\"id\":\"xl\",\"name\":\"xl\"}]},\"identity\":{\"name\":\"Glacier Minimal\"},\"source\":\"harness\",\"isGeneratingComponents\":false}",
+          "styleGuidelines": "## Brand & Style\n\nThis design system embodies a crisp, minimalist winter aesthetic tailored for a mobile counter application. It evokes the clarity of fresh snow, glacial ice, and quiet alpine mornings—delivering a calm, focused, and distraction-free experience for tracking counts, habits, or tallies.\n\nThe target audience values precision, speed, and visual serenity. The interface blends **Minimalism** with subtle **Glassmorphism**: generous whitespace, a restrained icy palette, frosted-glass borders, and soft diffused shadows create a lightweight, tactile sense of depth without visual clutter.\n\n## Layout & Spacing\n\nThis design system uses a **fluid grid** tailored for mobile-first ergonomics, with a 4-column base grid on phones (`16px` gutters, `20px` outer margins) that expands to 8 columns on tablets (`768px`+) and 12 columns on desktop (`1024px`+).\n\n- **Mobile (`< 768px`):** Counter cards stack vertically in a single column, keeping primary increment/decrement controls within natural thumb reach.\n- **Tablet & Desktop (`>= 768px`):** Multiple counters reflow into a 2- or 3-column grid, maintaining `space-lg` (`1.5rem`) between cards and `space-md` (`1rem`) for internal card padding.\n\n## Elevation & Depth\n\nVisual hierarchy is achieved through a combination of **tonal layers**, **subtle frosted-glass borders**, and **soft icy shadows**:\n\n- **Tonal Surfaces:** Pure snow white (`#FFFFFF`) cards sit atop soft frost (`#F4F9FC`) backgrounds, while active or selected counters shift to pale ice blue (`#E0F2FE`).\n- **Frosted-Glass Borders:** Interactive cards and floating controls use a `1px` translucent border (`rgba(224, 242, 254, 0.8)`) paired with a subtle backdrop blur (`backdrop-filter: blur(12px)`) where overlays appear.\n- **Icy Shadows:** Elevated elements use extra-diffused, low-opacity shadows tinted with deep slate-navy (`0 8px 24px -4px rgba(15, 23, 42, 0.06)`), creating a weightless, floating sensation without harsh contrast.\n\n## Components\n\n- **Buttons:** Primary action buttons (e.g., `+` increment) use vibrant glacier blue (`#0284C7`) with pure snow white (`#FFFFFF`) icons/text, `rounded-xl` corners, and a soft icy shadow. Secondary actions (e.g., `-` decrement or reset) use pale ice blue (`#E0F2FE`) fills with deep slate-navy (`#0F172A`) text.\n- **Cards:** Counter cards feature a pure snow white (`#FFFFFF`) or soft frost (`#F4F9FC`) surface, `1px` frosted-glass border, `rounded-xl` corners, and `space-md` internal padding. The tabular-numeral readout is centered or top-aligned with generous whitespace.\n- **Chips:** Filter and category chips use `rounded-lg` corners, `body-sm` typography, and pale ice blue (`#E0F2FE`) backgrounds when active, switching to transparent with a `1px` frosted border when inactive.\n- **Lists:** Saved counter logs and history rows sit on soft frost (`#F4F9FC`) containers separated by `1px` hairline dividers (`rgba(15, 23, 42, 0.06)`), with `space-md` vertical padding.\n- **Input Fields:** Text inputs for naming counters use pure snow white (`#FFFFFF`) backgrounds, `1px` slate-tinted borders (`rgba(15, 23, 42, 0.12)`), `0.5rem` corner radius, and a cool sky blue (`#38BDF8`) focus ring.\n- **Checkboxes & Radio Buttons:** Use `0.25rem` radius for checkboxes and full circles for radio buttons, filling with vibrant glacier blue (`#0284C7`) when selected.\n- **Quick-Increment Stepper (Product-Specific):** A tactile horizontal pill bar housing `-`, current tabular count, and `+` buttons, anchored at the bottom of the mobile viewport for effortless one-handed operation.",
+          "theme": {
+            "bodyFont": "DM_SANS",
+            "bodyFontFamily": "DM Sans",
+            "colorMode": "LIGHT",
+            "colorVariant": "FIDELITY",
+            "customColor": "#0284c7",
+            "designMd": "---\nname: Glacier Minimal\ncolors:\n  surface: '#faf8ff'\n  surface-dim: '#d2d9f4'\n  surface-bright: '#faf8ff'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f2f3ff'\n  surface-container: '#eaedff'\n  surface-container-high: '#e2e7ff'\n  surface-container-highest: '#dae2fd'\n  on-surface: '#131b2e'\n  on-surface-variant: '#3f4850'\n  inverse-surface: '#283044'\n  inverse-on-surface: '#eef0ff'\n  outline: '#707881'\n  outline-variant: '#bfc7d2'\n  surface-tint: '#006398'\n  primary: '#006194'\n  on-primary: '#ffffff'\n  primary-container: '#007bb9'\n  on-primary-container: '#fdfcff'\n  inverse-primary: '#93ccff'\n  secondary: '#00668a'\n  on-secondary: '#ffffff'\n  secondary-container: '#40c2fd'\n  on-secondary-container: '#004d6a'\n  tertiary: '#4e5e68'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#667781'\n  on-tertiary-container: '#fbfcff'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#cce5ff'\n  primary-fixed-dim: '#93ccff'\n  on-primary-fixed: '#001d31'\n  on-primary-fixed-variant: '#004b73'\n  secondary-fixed: '#c4e7ff'\n  secondary-fixed-dim: '#7bd0ff'\n  on-secondary-fixed: '#001e2c'\n  on-secondary-fixed-variant: '#004c69'\n  tertiary-fixed: '#d3e5f1'\n  tertiary-fixed-dim: '#b7c9d5'\n  on-tertiary-fixed: '#0c1e26'\n  on-tertiary-fixed-variant: '#384953'\n  background: '#faf8ff'\n  on-background: '#131b2e'\n  surface-variant: '#dae2fd'\ntypography:\n  display-xl:\n    fontFamily: Outfit\n    fontSize: 64px\n    fontWeight: '600'\n    lineHeight: 72px\n    letterSpacing: -0.02em\n  display-xl-mobile:\n    fontFamily: Outfit\n    fontSize: 48px\n    fontWeight: '600'\n    lineHeight: 56px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Outfit\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: 40px\n    letterSpacing: -0.015em\n  headline-md:\n    fontFamily: Outfit\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: 32px\n    letterSpacing: -0.01em\n  headline-sm:\n    fontFamily: Outfit\n    fontSize: 20px\n    fontWeight: '500'\n    lineHeight: 28px\n  body-lg:\n    fontFamily: DM Sans\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-md:\n    fontFamily: DM Sans\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: 20px\n  body-sm:\n    fontFamily: DM Sans\n    fontSize: 12px\n    fontWeight: '400'\n    lineHeight: 16px\n  label-lg:\n    fontFamily: DM Sans\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 20px\n    letterSpacing: 0.02em\n  label-md:\n    fontFamily: DM Sans\n    fontSize: 12px\n    fontWeight: '500'\n    lineHeight: 16px\n    letterSpacing: 0.03em\n  label-sm:\n    fontFamily: DM Sans\n    fontSize: 11px\n    fontWeight: '500'\n    lineHeight: 14px\n    letterSpacing: 0.04em\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  gutter: 1rem\n  margin: 1.25rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2rem\n---\n\n## Brand & Style\n\nThis design system embodies a crisp, minimalist winter aesthetic tailored for a mobile counter application. It evokes the clarity of fresh snow, glacial ice, and quiet alpine mornings—delivering a calm, focused, and distraction-free experience for tracking counts, habits, or tallies.\n\nThe target audience values precision, speed, and visual serenity. The interface blends **Minimalism** with subtle **Glassmorphism**: generous whitespace, a restrained icy palette, frosted-glass borders, and soft diffused shadows create a lightweight, tactile sense of depth without visual clutter.\n\n## Colors\n\nThe palette is anchored in a `light` color mode that maximizes legibility and airiness:\n\n- **Backgrounds:** Pure snow white (`#FFFFFF`) serves as the primary canvas, paired with soft frost (`#F4F9FC`) for secondary containers and grouped sections.\n- **Surfaces:** Pale ice blue (`#E0F2FE`) highlights interactive counter cards, active states, and subtle tonal elevations.\n- **Accents:** Vibrant glacier blue (`#0284C7`) drives primary actions such as increment buttons and key CTAs, while cool sky blue (`#38BDF8`) supports secondary accents, progress indicators, and focus rings.\n- **Typography & Contrast:** Deep slate-navy (`#0F172A`) provides crisp, high-contrast legibility for numerals, headings, and body copy.\n\n## Typography\n\nThe typographic hierarchy pairs geometric clarity with effortless scannability:\n\n- **Display & Headlines (`Outfit`):** Used for the primary counter numerals and section headers. All counter readouts must apply `font-variant-numeric: tabular-nums` so digits remain horizontally aligned and never jitter during rapid increments or decrements.\n- **Body & Labels (`DM Sans`):** Provides clean, low-contrast legibility for counter titles, timestamps, and control labels.\n- **Responsive Scaling:** On compact mobile viewports, `display-xl-mobile` (`48px`) replaces `display-xl` (`64px`) to preserve generous breathing room around the primary counter.\n\n## Layout & Spacing\n\nThis design system uses a **fluid grid** tailored for mobile-first ergonomics, with a 4-column base grid on phones (`16px` gutters, `20px` outer margins) that expands to 8 columns on tablets (`768px`+) and 12 columns on desktop (`1024px`+).\n\n- **Mobile (`< 768px`):** Counter cards stack vertically in a single column, keeping primary increment/decrement controls within natural thumb reach.\n- **Tablet & Desktop (`>= 768px`):** Multiple counters reflow into a 2- or 3-column grid, maintaining `space-lg` (`1.5rem`) between cards and `space-md` (`1rem`) for internal card padding.\n\n## Elevation & Depth\n\nVisual hierarchy is achieved through a combination of **tonal layers**, **subtle frosted-glass borders**, and **soft icy shadows**:\n\n- **Tonal Surfaces:** Pure snow white (`#FFFFFF`) cards sit atop soft frost (`#F4F9FC`) backgrounds, while active or selected counters shift to pale ice blue (`#E0F2FE`).\n- **Frosted-Glass Borders:** Interactive cards and floating controls use a `1px` translucent border (`rgba(224, 242, 254, 0.8)`) paired with a subtle backdrop blur (`backdrop-filter: blur(12px)`) where overlays appear.\n- **Icy Shadows:** Elevated elements use extra-diffused, low-opacity shadows tinted with deep slate-navy (`0 8px 24px -4px rgba(15, 23, 42, 0.06)`), creating a weightless, floating sensation without harsh contrast.\n\n## Shapes\n\nThe shape language uses a **Rounded (`2`)** profile (`0.5rem` base, `1rem` for `rounded-lg`, `1.5rem` for `rounded-xl`) to soften the crispness of the winter palette. Cards and primary counter containers use `rounded-xl` (`1.5rem`) for a friendly, approachable silhouette, while smaller controls, chips, and inputs use `0.5rem` to `1rem` radii.\n\n## Components\n\n- **Buttons:** Primary action buttons (e.g., `+` increment) use vibrant glacier blue (`#0284C7`) with pure snow white (`#FFFFFF`) icons/text, `rounded-xl` corners, and a soft icy shadow. Secondary actions (e.g., `-` decrement or reset) use pale ice blue (`#E0F2FE`) fills with deep slate-navy (`#0F172A`) text.\n- **Cards:** Counter cards feature a pure snow white (`#FFFFFF`) or soft frost (`#F4F9FC`) surface, `1px` frosted-glass border, `rounded-xl` corners, and `space-md` internal padding. The tabular-numeral readout is centered or top-aligned with generous whitespace.\n- **Chips:** Filter and category chips use `rounded-lg` corners, `body-sm` typography, and pale ice blue (`#E0F2FE`) backgrounds when active, switching to transparent with a `1px` frosted border when inactive.\n- **Lists:** Saved counter logs and history rows sit on soft frost (`#F4F9FC`) containers separated by `1px` hairline dividers (`rgba(15, 23, 42, 0.06)`), with `space-md` vertical padding.\n- **Input Fields:** Text inputs for naming counters use pure snow white (`#FFFFFF`) backgrounds, `1px` slate-tinted borders (`rgba(15, 23, 42, 0.12)`), `0.5rem` corner radius, and a cool sky blue (`#38BDF8`) focus ring.\n- **Checkboxes & Radio Buttons:** Use `0.25rem` radius for checkboxes and full circles for radio buttons, filling with vibrant glacier blue (`#0284C7`) when selected.\n- **Quick-Increment Stepper (Product-Specific):** A tactile horizontal pill bar housing `-`, current tabular count, and `+` buttons, anchored at the bottom of the mobile viewport for effortless one-handed operation.",
+            "font": "OUTFIT",
+            "headlineFont": "OUTFIT",
+            "headlineFontFamily": "Outfit",
+            "labelFont": "DM_SANS",
+            "labelFontFamily": "DM Sans",
+            "namedColors": {
+              "background": "#faf8ff",
+              "error": "#ba1a1a",
+              "error_container": "#ffdad6",
+              "inverse_on_surface": "#eef0ff",
+              "inverse_primary": "#93ccff",
+              "inverse_surface": "#283044",
+              "on_background": "#131b2e",
+              "on_error": "#ffffff",
+              "on_error_container": "#93000a",
+              "on_primary": "#ffffff",
+              "on_primary_container": "#fdfcff",
+              "on_primary_fixed": "#001d31",
+              "on_primary_fixed_variant": "#004b73",
+              "on_secondary": "#ffffff",
+              "on_secondary_container": "#004d6a",
+              "on_secondary_fixed": "#001e2c",
+              "on_secondary_fixed_variant": "#004c69",
+              "on_surface": "#131b2e",
+              "on_surface_variant": "#3f4850",
+              "on_tertiary": "#ffffff",
+              "on_tertiary_container": "#fbfcff",
+              "on_tertiary_fixed": "#0c1e26",
+              "on_tertiary_fixed_variant": "#384953",
+              "outline": "#707881",
+              "outline_variant": "#bfc7d2",
+              "primary": "#006194",
+              "primary_container": "#007bb9",
+              "primary_fixed": "#cce5ff",
+              "primary_fixed_dim": "#93ccff",
+              "secondary": "#00668a",
+              "secondary_container": "#40c2fd",
+              "secondary_fixed": "#c4e7ff",
+              "secondary_fixed_dim": "#7bd0ff",
+              "surface": "#faf8ff",
+              "surface_bright": "#faf8ff",
+              "surface_container": "#eaedff",
+              "surface_container_high": "#e2e7ff",
+              "surface_container_highest": "#dae2fd",
+              "surface_container_low": "#f2f3ff",
+              "surface_container_lowest": "#ffffff",
+              "surface_dim": "#d2d9f4",
+              "surface_tint": "#006398",
+              "surface_variant": "#dae2fd",
+              "tertiary": "#4e5e68",
+              "tertiary_container": "#667781",
+              "tertiary_fixed": "#d3e5f1",
+              "tertiary_fixed_dim": "#b7c9d5"
+            },
+            "overrideNeutralColor": "#0f172a",
+            "overridePrimaryColor": "#0284c7",
+            "overrideSecondaryColor": "#38bdf8",
+            "overrideTertiaryColor": "#e0f2fe",
+            "roundness": "ROUND_EIGHT",
+            "spacing": {
+              "gutter": "1rem",
+              "margin": "1.25rem",
+              "space-lg": "1.5rem",
+              "space-md": "1rem",
+              "space-sm": "0.5rem",
+              "space-xl": "2rem",
+              "space-xs": "0.25rem"
+            },
+            "spacingScale": 2,
+            "typography": {
+              "body-lg": {
+                "fontFamily": "DM Sans",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "body-md": {
+                "fontFamily": "DM Sans",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "20px"
+              },
+              "body-sm": {
+                "fontFamily": "DM Sans",
+                "fontSize": "12px",
+                "fontWeight": "400",
+                "lineHeight": "16px"
+              },
+              "display-xl": {
+                "fontFamily": "Outfit",
+                "fontSize": "64px",
+                "fontWeight": "600",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "72px"
+              },
+              "display-xl-mobile": {
+                "fontFamily": "Outfit",
+                "fontSize": "48px",
+                "fontWeight": "600",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "56px"
+              },
+              "headline-lg": {
+                "fontFamily": "Outfit",
+                "fontSize": "32px",
+                "fontWeight": "600",
+                "letterSpacing": "-0.015em",
+                "lineHeight": "40px"
+              },
+              "headline-md": {
+                "fontFamily": "Outfit",
+                "fontSize": "24px",
+                "fontWeight": "600",
+                "letterSpacing": "-0.01em",
+                "lineHeight": "32px"
+              },
+              "headline-sm": {
+                "fontFamily": "Outfit",
+                "fontSize": "20px",
+                "fontWeight": "500",
+                "lineHeight": "28px"
+              },
+              "label-lg": {
+                "fontFamily": "DM Sans",
+                "fontSize": "14px",
+                "fontWeight": "600",
+                "letterSpacing": "0.02em",
+                "lineHeight": "20px"
+              },
+              "label-md": {
+                "fontFamily": "DM Sans",
+                "fontSize": "12px",
+                "fontWeight": "500",
+                "letterSpacing": "0.03em",
+                "lineHeight": "16px"
+              },
+              "label-sm": {
+                "fontFamily": "DM Sans",
+                "fontSize": "11px",
+                "fontWeight": "500",
+                "letterSpacing": "0.04em",
+                "lineHeight": "14px"
+              }
+            }
+          }
+        },
+        "name": "assets/b4d0e1f6658e40c8936c151cc591abbe",
+        "version": "1"
+      }
+    ],
+    "returnedCount": 1,
+    "isTruncated": false
+  }
+}
